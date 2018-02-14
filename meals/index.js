@@ -8,6 +8,7 @@ const other = [
   'Eten bij de ouders van Maarten',
   'Eten bij de moeder van Rianne',
   'Eten bij de vader van Rianne',
+  'Bestellen',
   'Uiteten'
 ]
 
