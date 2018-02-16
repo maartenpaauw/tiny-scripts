@@ -9,7 +9,7 @@ const other = [
   'Eten bij de moeder van Rianne',
   'Eten bij de vader van Rianne',
   'Bestellen',
-  'Uiteten'
+  'Uit eten'
 ]
 
 // YAML format.
