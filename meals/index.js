@@ -5,6 +5,7 @@ const meals = fs.readFileSync('meals.txt').toString().split('\n').sort()
 
 // Add some default values.
 const other = [
+  'Anders',
   'Eten bij de ouders van Maarten',
   'Eten bij de moeder van Rianne',
   'Eten bij de vader van Rianne',
