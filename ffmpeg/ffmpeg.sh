@@ -5,7 +5,7 @@ echo "Download URL:";
 read url;
 
 # Ask for Serie name.
-echo "Serie";
+echo "Serie:";
 read serie;
 
 # Ask for season number.
