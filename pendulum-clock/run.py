@@ -80,7 +80,7 @@ def main() -> None:
     combined = sound
 
     # Export it as the 1 'o clock sound.
-    combined.export(args.directory + "/" + file_name(1, args.template, args.leading_zeros), format="mp3")
+    combined.export(os.path.join(args.directory, file_name(1, args.template, args.leading_zeros)), format="mp3")
 
     # Determine the count to use in the for loop.
     count = 25 if args.twentyfour_hours else 13
@@ -92,7 +92,7 @@ def main() -> None:
         combined += sound
 
         # Export it with the right name.
-        combined.export(args.directory + "/" + file_name(i, args.template, args.leading_zeros), format="mp3")
+        combined.export(os.path.join(args.directory, file_name(i, args.template, args.leading_zeros)), format="mp3")
 
 # Check if this script get executed.
 if __name__ == '__main__':
