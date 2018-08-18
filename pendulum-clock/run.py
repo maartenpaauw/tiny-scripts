@@ -51,7 +51,7 @@ def main() -> None:
 
     # Add leading zero argument.
     parser.add_argument("--leading-zeros",
-                        help="prefix hour 1 to 9 with a zero",
+                        help="prefix hour 1 to 9 with a zero (01, 02, 03 ...)",
                         action="store_true",
                         default=False)
 
