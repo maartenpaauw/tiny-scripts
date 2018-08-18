@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-The code depends on the Python library Pydub (http://pydub.com/). This library needs ffmpeg installed on the machine. You can install it via brew with the following command.
+The code depends on the Python library [Pydub](http://pydub.com/). This library needs ffmpeg installed on the machine. You can install it via brew with the following command.
 
 ```shell
 # ffmpeg
