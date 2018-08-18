@@ -62,6 +62,8 @@ optional arguments:
                         converted to a number.
 ```
 
+[![asciicast](https://asciinema.org/a/FXRuUbcL3HJMu8IiDk8ugSIYp.png)](https://asciinema.org/a/FXRuUbcL3HJMu8IiDk8ugSIYp)
+
 ## Built With
 
 - [Pydub](https://github.com/jiaaro/pydub#installation) - Generate the audio files.
