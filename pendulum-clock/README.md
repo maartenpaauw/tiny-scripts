@@ -44,8 +44,8 @@ Now you are all set!
 ```shell
 python run.py --help
 
-
 usage: generate audio files for a pendulum clock [-h] [--file FILE]
+                                                 [--type TYPE]
                                                  [--directory DIRECTORY]
                                                  [--leading-zeros]
                                                  [--twentyfour-hours]
@@ -54,6 +54,7 @@ usage: generate audio files for a pendulum clock [-h] [--file FILE]
 optional arguments:
   -h, --help            show this help message and exit
   --file FILE           the audio file to use
+  --type TYPE           set the file type to use
   --directory DIRECTORY
                         the directory where to store the audio files
   --leading-zeros       prefix hour 1 to 9 with a zero (01, 02, 03 ...)
