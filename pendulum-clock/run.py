@@ -42,6 +42,12 @@ def main() -> None:
                         help="the audio file to use",
                         type=str,
                         default="chime.mp3")
+    
+    # Add the file type argument.
+    parser.add_argument("--type",
+                        help="set the file type to use",
+                        type=str,
+                        default="mp3")
 
     # Add the directory argument.
     parser.add_argument("--directory",
@@ -74,13 +80,13 @@ def main() -> None:
     create_directory(args.directory)
 
     # Audio Segment
-    sound = AudioSegment.from_mp3(args.file)
+    sound = AudioSegment.from_file(args.file, args.type)
 
     # Set the sound as combined
     combined = sound
 
     # Export it as the 1 'o clock sound.
-    combined.export(os.path.join(args.directory, file_name(1, args.template, args.leading_zeros)), format="mp3")
+    combined.export(os.path.join(args.directory, file_name(1, args.template, args.leading_zeros)), format=args.type)
 
     # Determine the count to use in the for loop.
     count = 25 if args.twentyfour_hours else 13
@@ -92,7 +98,7 @@ def main() -> None:
         combined += sound
 
         # Export it with the right name.
-        combined.export(os.path.join(args.directory, file_name(i, args.template, args.leading_zeros)), format="mp3")
+        combined.export(os.path.join(args.directory, file_name(i, args.template, args.leading_zeros)), format=args.type)
 
 # Check if this script get executed.
 if __name__ == '__main__':
