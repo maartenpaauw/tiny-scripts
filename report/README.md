@@ -1,0 +1,26 @@
+# Output
+
+```
+Week 1 — 3 t/m 7 september (2018)
+Week 2 — 10 t/m 14 september (2018)
+Week 3 — 17 t/m 21 september (2018)
+Week 4 — 24 t/m 28 september (2018)
+Week 5 — 1 t/m 5 oktober (2018)
+Week 6 — 8 t/m 12 oktober (2018)
+Week 7 — 15 t/m 19 oktober (2018)
+Week 8 — 22 t/m 26 oktober (2018)
+Week 9 — 29 oktober t/m 2 november (2018)
+Week 10 — 5 t/m 9 november (2018)
+Week 11 — 12 t/m 16 november (2018)
+Week 12 — 19 t/m 23 november (2018)
+Week 13 — 26 t/m 30 november (2018)
+Week 14 — 3 t/m 7 december (2018)
+Week 15 — 10 t/m 14 december (2018)
+Week 16 — 17 t/m 21 december (2018)
+Week 17 — 24 t/m 28 december (2018)
+Week 18 — 31 december (2018) t/m 4 januari (2019)
+Week 19 — 7 t/m 11 januari (2019)
+Week 20 — 14 t/m 18 januari (2019)
+Week 21 — 21 t/m 25 januari (2019)
+Week 22 — 28 januari t/m 1 februari (2019)
+```
