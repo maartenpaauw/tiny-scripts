@@ -3,9 +3,8 @@ const _ = require('lodash')
 
 moment.locale('nl_NL')
 
-const date = '2018-09-03'
-const monday = moment(date)
-const friday = moment(date).startOf('isoWeek').add(4, 'days')
+const monday = moment('2018-09-03').startOf('isoWeek')
+const friday = moment('2018-09-03').endOf('isoWeek').subtract(2, 'days')
 const range = _.range(1, 23)
 
 range.forEach(week => {
