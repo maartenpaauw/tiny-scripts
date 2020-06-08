@@ -6,7 +6,7 @@ const options = {
     width: 1920,
     height: 1080,
     overwrite: true,
-    delay: 3,
+    delay: 5,
 };
 
 const items = [
